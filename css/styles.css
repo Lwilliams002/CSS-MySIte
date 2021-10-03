@@ -1,22 +1,141 @@
-body{
+body {
   margin: 0;
-}
-h1{
-  margin-top: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
-.top-container{
-  background-color: #E4F9F5;
-  height: 200px;
-  width: 200px;
+h1 {
+  font-size: 562.5%;
+  line-height: 1;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
 }
-.middle-container{
-  background-color: #30E3CA;
-  height: 200px;
-  width: 200px;
+
+h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2.0rem;
+  color: #66BFBF;
+  font-weight: normal;
 }
-.bottom-container{
-  background-color: #11999E;
-  height: 200px;
-  width: 200px;
+
+h3 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #11999E;
 }
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border: dotted #2A7B9C 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.footer-link {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #9BCFD1;
+  text-decoration: none;
+  font-size: 1.00rem;
+  border-radius: 4px;
+  margin-top: 10px;
+  position: relative;
+  top: 50px;
+}
+
+.btn {
+  padding: 10px 20px 10px 20px;
+  background: #264C78;
+  color: #ffffff;
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-decoration: none;
+  font-size: 50x;
+  border-radius: 8px;
+  position: relative;
+  top: 2.00rem;
+}
+
+.copyright {
+  padding: 20px 0;
+  word-spacing: 5px;
+  font-size: 0.75rem;
+  color: #F9F9F9;
+  height: 100px;
+  position: relative;
+  bottom: 0px;
+  top: 40px;
+  margin-bottom: 0px;
+}
+
+.top-container {
+  background-color: #2A5585;
+  position: relative;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.middle-container {
+  background-color: #F9F9F9;
+}
+
+.bottom-container {
+  background-color: #22446B;
+  word-spacing: 30px;
+}
+
+.contact-me {
+  padding-bottom: 150px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.NFT {
+  border-radius: 25%;
+  width: 24%;
+  float: right;
+}
+
+.webDev {
+  border-radius: 50%;
+  width: 35%;
+  float: left;
+  margin-right: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.mountain {}
