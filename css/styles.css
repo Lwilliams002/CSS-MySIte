@@ -39,6 +39,7 @@ a {
 
 a:hover {
   color: #EAF6F6;
+
 }
 
 hr {
@@ -60,33 +61,60 @@ hr {
 }
 
 .btn {
-  padding: 10px 20px 10px 20px;
-  background: #264C78;
-  color: #ffffff;
-  font-family: 'Montserrat Alternates', sans-serif;
-  text-decoration: none;
-  font-size: 50x;
-  border-radius: 8px;
-  position: relative;
-  top: 2.00rem;
+   background: #1E62D6;
+   background-image: -webkit-linear-gradient(top, #1E62D6, #264C78);
+   background-image: -moz-linear-gradient(top, #1E62D6, #264C78);
+   background-image: -ms-linear-gradient(top, #1E62D6, #264C78);
+   background-image: -o-linear-gradient(top, #1E62D6, #264C78);
+   background-image: -webkit-gradient(to bottom, #1E62D6, #264C78);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Montserrat Alternates', sans-serif;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #264C78 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   position: relative;
+   top: 2.30rem;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
 }
 
 .copyright {
-  padding: 20px 0;
-  word-spacing: 5px;
-  font-size: 0.75rem;
-  color: #F9F9F9;
-  height: 100px;
-  position: relative;
-  bottom: 0px;
-  top: 40px;
-  margin-bottom: 0px;
+  color: #EAF6F6;
+ font-size: 0.75rem;
+ padding: 20px 0;
+ position: relative;
+ top: 50px;
 }
 
 .top-container {
   background-color: #2A5585;
   position: relative;
-  padding-top: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   width: 100%;
 }
 
@@ -96,6 +124,7 @@ hr {
 
 .bottom-container {
   background-color: #22446B;
+  padding: 40px 0 40px;
   word-spacing: 30px;
 }
 
@@ -138,7 +167,7 @@ hr {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 3;
+
 }
 
 .NFT {
@@ -163,7 +192,7 @@ hr {
 .bottom-cloud {
   position: absolute;
   left: 250px;
-  bottom: 300px;
+  bottom: 400px;
 }
 
 .bottom-hr{
@@ -181,4 +210,8 @@ top: -80px;
   font-weight: 100;
 }
 
-.mountain {}
+.mountain {
+  position: relative;
+  top: 120px;
+
+}
